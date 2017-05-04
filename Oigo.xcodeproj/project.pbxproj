@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0201A361EBB5DE70024A82B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A351EBB5DE70024A82B /* AppDelegate.swift */; };
+		E0201A381EBB5DE70024A82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A371EBB5DE70024A82B /* ViewController.swift */; };
+		E0201A3B1EBB5DE70024A82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0201A391EBB5DE70024A82B /* Main.storyboard */; };
+		E0201A3D1EBB5DE70024A82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0201A3C1EBB5DE70024A82B /* Assets.xcassets */; };
+		E0201A401EBB5DE70024A82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0201A3E1EBB5DE70024A82B /* LaunchScreen.storyboard */; };
+		E0201A4B1EBB5DE70024A82B /* OigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A4A1EBB5DE70024A82B /* OigoTests.swift */; };
+		E0201A561EBB5DE70024A82B /* OigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A551EBB5DE70024A82B /* OigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0201A471EBB5DE70024A82B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0201A2A1EBB5DE70024A82B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0201A311EBB5DE70024A82B;
+			remoteInfo = Oigo;
+		};
+		E0201A521EBB5DE70024A82B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0201A2A1EBB5DE70024A82B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0201A311EBB5DE70024A82B;
+			remoteInfo = Oigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0201A321EBB5DE70024A82B /* Oigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0201A351EBB5DE70024A82B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0201A371EBB5DE70024A82B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0201A3A1EBB5DE70024A82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0201A3C1EBB5DE70024A82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0201A3F1EBB5DE70024A82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0201A411EBB5DE70024A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0201A461EBB5DE70024A82B /* OigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0201A4A1EBB5DE70024A82B /* OigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OigoTests.swift; sourceTree = "<group>"; };
+		E0201A4C1EBB5DE70024A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0201A511EBB5DE70024A82B /* OigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0201A551EBB5DE70024A82B /* OigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OigoUITests.swift; sourceTree = "<group>"; };
+		E0201A571EBB5DE70024A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0201A2F1EBB5DE70024A82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A431EBB5DE70024A82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A4E1EBB5DE70024A82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0201A291EBB5DE70024A82B = {
+			isa = PBXGroup;
+			children = (
+				E0201A341EBB5DE70024A82B /* Oigo */,
+				E0201A491EBB5DE70024A82B /* OigoTests */,
+				E0201A541EBB5DE70024A82B /* OigoUITests */,
+				E0201A331EBB5DE70024A82B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0201A331EBB5DE70024A82B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0201A321EBB5DE70024A82B /* Oigo.app */,
+				E0201A461EBB5DE70024A82B /* OigoTests.xctest */,
+				E0201A511EBB5DE70024A82B /* OigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0201A341EBB5DE70024A82B /* Oigo */ = {
+			isa = PBXGroup;
+			children = (
+				E0201A351EBB5DE70024A82B /* AppDelegate.swift */,
+				E0201A371EBB5DE70024A82B /* ViewController.swift */,
+				E0201A391EBB5DE70024A82B /* Main.storyboard */,
+				E0201A3C1EBB5DE70024A82B /* Assets.xcassets */,
+				E0201A3E1EBB5DE70024A82B /* LaunchScreen.storyboard */,
+				E0201A411EBB5DE70024A82B /* Info.plist */,
+			);
+			path = Oigo;
+			sourceTree = "<group>";
+		};
+		E0201A491EBB5DE70024A82B /* OigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0201A4A1EBB5DE70024A82B /* OigoTests.swift */,
+				E0201A4C1EBB5DE70024A82B /* Info.plist */,
+			);
+			path = OigoTests;
+			sourceTree = "<group>";
+		};
+		E0201A541EBB5DE70024A82B /* OigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0201A551EBB5DE70024A82B /* OigoUITests.swift */,
+				E0201A571EBB5DE70024A82B /* Info.plist */,
+			);
+			path = OigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0201A311EBB5DE70024A82B /* Oigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0201A5A1EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "Oigo" */;
+			buildPhases = (
+				E0201A2E1EBB5DE70024A82B /* Sources */,
+				E0201A2F1EBB5DE70024A82B /* Frameworks */,
+				E0201A301EBB5DE70024A82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oigo;
+			productName = Oigo;
+			productReference = E0201A321EBB5DE70024A82B /* Oigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0201A451EBB5DE70024A82B /* OigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0201A5D1EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoTests" */;
+			buildPhases = (
+				E0201A421EBB5DE70024A82B /* Sources */,
+				E0201A431EBB5DE70024A82B /* Frameworks */,
+				E0201A441EBB5DE70024A82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0201A481EBB5DE70024A82B /* PBXTargetDependency */,
+			);
+			name = OigoTests;
+			productName = OigoTests;
+			productReference = E0201A461EBB5DE70024A82B /* OigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0201A501EBB5DE70024A82B /* OigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0201A601EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoUITests" */;
+			buildPhases = (
+				E0201A4D1EBB5DE70024A82B /* Sources */,
+				E0201A4E1EBB5DE70024A82B /* Frameworks */,
+				E0201A4F1EBB5DE70024A82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0201A531EBB5DE70024A82B /* PBXTargetDependency */,
+			);
+			name = OigoUITests;
+			productName = OigoUITests;
+			productReference = E0201A511EBB5DE70024A82B /* OigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0201A2A1EBB5DE70024A82B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Karl Johan Teigland";
+				TargetAttributes = {
+					E0201A311EBB5DE70024A82B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					E0201A451EBB5DE70024A82B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0201A311EBB5DE70024A82B;
+					};
+					E0201A501EBB5DE70024A82B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0201A311EBB5DE70024A82B;
+					};
+				};
+			};
+			buildConfigurationList = E0201A2D1EBB5DE70024A82B /* Build configuration list for PBXProject "Oigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0201A291EBB5DE70024A82B;
+			productRefGroup = E0201A331EBB5DE70024A82B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0201A311EBB5DE70024A82B /* Oigo */,
+				E0201A451EBB5DE70024A82B /* OigoTests */,
+				E0201A501EBB5DE70024A82B /* OigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0201A301EBB5DE70024A82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0201A401EBB5DE70024A82B /* LaunchScreen.storyboard in Resources */,
+				E0201A3D1EBB5DE70024A82B /* Assets.xcassets in Resources */,
+				E0201A3B1EBB5DE70024A82B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A441EBB5DE70024A82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A4F1EBB5DE70024A82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0201A2E1EBB5DE70024A82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0201A381EBB5DE70024A82B /* ViewController.swift in Sources */,
+				E0201A361EBB5DE70024A82B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A421EBB5DE70024A82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0201A4B1EBB5DE70024A82B /* OigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0201A4D1EBB5DE70024A82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0201A561EBB5DE70024A82B /* OigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0201A481EBB5DE70024A82B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0201A311EBB5DE70024A82B /* Oigo */;
+			targetProxy = E0201A471EBB5DE70024A82B /* PBXContainerItemProxy */;
+		};
+		E0201A531EBB5DE70024A82B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0201A311EBB5DE70024A82B /* Oigo */;
+			targetProxy = E0201A521EBB5DE70024A82B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0201A391EBB5DE70024A82B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0201A3A1EBB5DE70024A82B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0201A3E1EBB5DE70024A82B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0201A3F1EBB5DE70024A82B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0201A581EBB5DE70024A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0201A591EBB5DE70024A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0201A5B1EBB5DE70024A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.Oigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0201A5C1EBB5DE70024A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.Oigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E0201A5E1EBB5DE70024A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.OigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oigo.app/Oigo";
+			};
+			name = Debug;
+		};
+		E0201A5F1EBB5DE70024A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.OigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oigo.app/Oigo";
+			};
+			name = Release;
+		};
+		E0201A611EBB5DE70024A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.OigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Oigo;
+			};
+			name = Debug;
+		};
+		E0201A621EBB5DE70024A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.oigo.OigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Oigo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0201A2D1EBB5DE70024A82B /* Build configuration list for PBXProject "Oigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0201A581EBB5DE70024A82B /* Debug */,
+				E0201A591EBB5DE70024A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0201A5A1EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "Oigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0201A5B1EBB5DE70024A82B /* Debug */,
+				E0201A5C1EBB5DE70024A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0201A5D1EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0201A5E1EBB5DE70024A82B /* Debug */,
+				E0201A5F1EBB5DE70024A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0201A601EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0201A611EBB5DE70024A82B /* Debug */,
+				E0201A621EBB5DE70024A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0201A2A1EBB5DE70024A82B /* Project object */;
+}
