@@ -14,6 +14,8 @@
 		E0201A401EBB5DE70024A82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0201A3E1EBB5DE70024A82B /* LaunchScreen.storyboard */; };
 		E0201A4B1EBB5DE70024A82B /* OigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A4A1EBB5DE70024A82B /* OigoTests.swift */; };
 		E0201A561EBB5DE70024A82B /* OigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A551EBB5DE70024A82B /* OigoUITests.swift */; };
+		E0201A641EBB64450024A82B /* PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0201A631EBB64450024A82B /* PageView.xib */; };
+		E0201A661EBB64590024A82B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0201A651EBB64590024A82B /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E0201A511EBB5DE70024A82B /* OigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0201A551EBB5DE70024A82B /* OigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OigoUITests.swift; sourceTree = "<group>"; };
 		E0201A571EBB5DE70024A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0201A631EBB64450024A82B /* PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageView.xib; sourceTree = "<group>"; };
+		E0201A651EBB64590024A82B /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E0201A3C1EBB5DE70024A82B /* Assets.xcassets */,
 				E0201A3E1EBB5DE70024A82B /* LaunchScreen.storyboard */,
 				E0201A411EBB5DE70024A82B /* Info.plist */,
+				E0201A631EBB64450024A82B /* PageView.xib */,
+				E0201A651EBB64590024A82B /* PageView.swift */,
 			);
 			path = Oigo;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0201A401EBB5DE70024A82B /* LaunchScreen.storyboard in Resources */,
+				E0201A641EBB64450024A82B /* PageView.xib in Resources */,
 				E0201A3D1EBB5DE70024A82B /* Assets.xcassets in Resources */,
 				E0201A3B1EBB5DE70024A82B /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0201A381EBB5DE70024A82B /* ViewController.swift in Sources */,
+				E0201A661EBB64590024A82B /* PageView.swift in Sources */,
 				E0201A361EBB5DE70024A82B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				E0201A5C1EBB5DE70024A82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0201A5D1EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				E0201A5F1EBB5DE70024A82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0201A601EBB5DE70024A82B /* Build configuration list for PBXNativeTarget "OigoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				E0201A621EBB5DE70024A82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
